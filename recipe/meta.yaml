@@ -23,9 +23,9 @@ requirements:
     - setuptools
     - pip
   run:
-    - python >={{ python_min }},<{{ python_max }}
-    - numpy >=1.23.5,<1.24.0
-    - geoh5py >=0.9.0,<0.10.0
+    - python >={{ python_min }}
+    - numpy 1.26.*
+    - geoh5py 0.10.*
 
 test:
   imports:
