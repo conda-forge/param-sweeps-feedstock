@@ -14,7 +14,6 @@ Development: https://github.com/MiraGeoscience/param-sweeps
 The param-sweeps library contains two main modules. One is for generating sweep files,
 and the other is to run a sweep over some number of parameters in a driver application.
 
-
 Current build status
 ====================
 
@@ -149,6 +148,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@SophieCurinier](https://github.com/SophieCurinier/)
+* [@andrewg-mira](https://github.com/andrewg-mira/)
 * [@sebhmg](https://github.com/sebhmg/)
 
