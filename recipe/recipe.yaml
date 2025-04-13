@@ -20,10 +20,10 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
+    - pip
     - poetry-core >=1.0.0
     - setuptools
-    - pip
   run:
     - python >=${{ python_min }}
     - numpy 1.26.*
@@ -31,11 +31,11 @@ requirements:
 
 tests:
   - python:
+      python_version: ${{ python_min }}.*
       imports:
         - param_sweeps
       pip_check: true
 
-      python_version: ${{ python_min }}.*
 about:
   summary: A Parameter sweeper for applications driven by ui.json files.
   description: |
