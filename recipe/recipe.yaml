@@ -49,5 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - andrewg-mira
-    - sebhmg
+    - conda-forge/geoh5py
