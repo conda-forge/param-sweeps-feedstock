@@ -35,6 +35,15 @@ tests:
       imports:
         - param_sweeps
       pip_check: true
+  - script:
+      - pytest --ignore=tests/version_test.py
+    requirements:
+      run:
+        - pytest
+        - pyyaml
+    files:
+      source:
+        - tests/
 
 about:
   summary: A Parameter sweeper for applications driven by ui.json files.
