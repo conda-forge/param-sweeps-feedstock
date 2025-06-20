@@ -148,6 +148,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@andrewg-mira](https://github.com/andrewg-mira/)
-* [@sebhmg](https://github.com/sebhmg/)
+* [@conda-forge/geoh5py](https://github.com/orgs/conda-forge/teams/geoh5py/)
 
