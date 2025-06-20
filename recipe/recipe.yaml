@@ -26,8 +26,10 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - numpy 1.26.*
-    - geoh5py 0.10.*
+    # Mira packages
+    - geoh5py >=0.11.0, <0.12.dev
+    # direct dependencies
+    - numpy >=1.26.0, <1.27.dev
 
 tests:
   - python:
